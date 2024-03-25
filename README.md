@@ -18,6 +18,8 @@ Once the command interpreter is started, you can use the following commands:
 help: Lists all available commands.
 quit: Exits the command interpreter.
 EOF: Also exits the command interpret
+Examples
+Starting the interpreter
 $ ./console.py
 (hbnb) help
 
@@ -27,6 +29,8 @@ EOF  help  quit
 
 (hbnb) quit
 $
+
+Using non-interactive mode:
 
 $ echo "help" | ./console.py
 (hbnb)
